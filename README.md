@@ -4,12 +4,3 @@
 
 ![](/project.svg)
 
-## 8mm Lead Screw Nut
-
-
-## Cut Aways
-
-
-undefined
-
-
