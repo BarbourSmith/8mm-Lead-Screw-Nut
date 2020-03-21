@@ -145,7 +145,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 8
+                            "ioValue": 8.2
                         }
                     ]
                 },
@@ -242,8 +242,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.10029282576866763,
-                    "y": 0.26436781609195403,
+                    "x": 0.09882869692532943,
+                    "y": 0.28735632183908044,
                     "uniqueID": 930040,
                     "ioValues": [
                         {
@@ -335,10 +335,18 @@
                     "selectedColorIndex": "8"
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.4443631039531478,
+                    "y": 0.7739463601532567,
+                    "uniqueID": 942069,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1815519765739385,
-                    "y": 0.8505747126436781,
+                    "x": 0.18228404099560763,
+                    "y": 0.896551724137931,
                     "uniqueID": 730000,
                     "ioValues": [
                         {
@@ -346,14 +354,6 @@
                             "ioValue": 22
                         }
                     ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.4443631039531478,
-                    "y": 0.7739463601532567,
-                    "uniqueID": 942069,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -485,17 +485,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap2Primary": false,
-                    "ap1ID": 730000,
-                    "ap2ID": 942069
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 942069,
                     "ap2ID": 775667
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 730000,
+                    "ap2ID": 942069
                 },
                 {
                     "ap1Name": "geometry",
