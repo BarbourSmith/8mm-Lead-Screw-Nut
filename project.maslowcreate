@@ -232,26 +232,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.4919472913616398,
-            "y": 0.524904214559387,
-            "uniqueID": 739314,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "8mm Lead Screw Nut",
             "x": 0,
             "y": 0,
@@ -302,12 +282,17 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.4919472913616398,
-                    "y": 0.524904214559387,
-                    "uniqueID": 739314,
-                    "ioValues": []
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.44582723279648606,
+                    "y": 0.5172413793103449,
+                    "uniqueID": 427151,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": -10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -323,9 +308,22 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5556368960468522,
+                    "y": 0.5019157088122606,
+                    "uniqueID": 232763,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
                 },
                 {
                     "atomType": "Color",
@@ -353,7 +351,7 @@
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.4443631039531478,
-                    "y": 0.7586206896551725,
+                    "y": 0.7739463601532567,
                     "uniqueID": 942069,
                     "ioValues": []
                 },
@@ -451,11 +449,32 @@
                     "ap2ID": 942069
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 738506,
+                    "ap2ID": 427151
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 427151,
+                    "ap2ID": 232763
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 995559,
                     "ap2ID": 684096
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 232763,
+                    "ap2ID": 995559
                 },
                 {
                     "ap1Name": "geometry",
