@@ -29,18 +29,30 @@
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 15
+                    "ioValue": 30
                 }
             ]
         },
         {
-            "atomType": "Color",
-            "name": "Color",
-            "x": 0.47144948755490484,
-            "y": 0.2298850574712644,
-            "uniqueID": 573893,
-            "ioValues": [],
-            "selectedColorIndex": "12"
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.4341142020497804,
+            "y": 0.18773946360153254,
+            "uniqueID": 777734,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": -15
+                }
+            ]
         },
         {
             "atomType": "Difference",
@@ -49,6 +61,15 @@
             "y": 0.4789272030651341,
             "uniqueID": 367040,
             "ioValues": []
+        },
+        {
+            "atomType": "Color",
+            "name": "Color",
+            "x": 0.5387994143484627,
+            "y": 0.19540229885057472,
+            "uniqueID": 573893,
+            "ioValues": [],
+            "selectedColorIndex": "12"
         },
         {
             "atomType": "Molecule",
@@ -420,14 +441,14 @@
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 907584,
-            "ap2ID": 573893
+            "ap2ID": 777734
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 573893,
-            "ap2ID": 995559
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 777734,
+            "ap2ID": 573893
         },
         {
             "ap1Name": "geometry",
@@ -435,6 +456,13 @@
             "ap2Primary": true,
             "ap1ID": 367040,
             "ap2ID": 410189
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 573893,
+            "ap2ID": 995559
         },
         {
             "ap1Name": "Geometry",
