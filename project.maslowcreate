@@ -314,22 +314,22 @@
             ]
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.6573938506588579,
-            "y": 0.2950191570881226,
-            "uniqueID": 995559,
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.6830161054172766,
+            "y": 0.3333333333333333,
+            "uniqueID": 168870,
             "ioValues": [
                 {
                     "name": "3D shape 1",
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 4",
+                    "name": "3D shape 2",
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 5",
+                    "name": "3D shape 3",
                     "ioValue": 10
                 }
             ]
@@ -365,23 +365,10 @@
             ]
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.5885797950219619,
-            "y": 0.8084291187739464,
-            "uniqueID": 775667,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 3.5
-                }
-            ]
-        },
-        {
             "atomType": "Translate",
             "name": "Translate",
-            "x": 0.7020497803806734,
-            "y": 0.7203065134099617,
+            "x": 0.6661786237188873,
+            "y": 0.7126436781609194,
             "uniqueID": 475212,
             "ioValues": [
                 {
@@ -399,19 +386,17 @@
             ]
         },
         {
-            "atomType": "Add BOM Tag",
-            "name": "Add BOM Tag",
-            "x": 0.8748169838945827,
-            "y": 0.6551724137931034,
-            "uniqueID": 529783,
-            "ioValues": [],
-            "BOMitem": {
-                "BOMitemName": "Leadscrew Nut",
-                "numberNeeded": 1,
-                "costUSD": 5,
-                "source": "https://www.amazon.com/Drillpro-400mm-Lead-Screw-Printer/dp/B017AR5QBS",
-                "totalNeeded": 0
-            }
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5885797950219619,
+            "y": 0.8084291187739464,
+            "uniqueID": 775667,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 3.5
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -459,10 +444,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
+            "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 573893,
-            "ap2ID": 995559
+            "ap2ID": 168870
         },
         {
             "ap1Name": "Geometry",
@@ -480,24 +465,23 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 5",
+            "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 410189,
-            "ap2ID": 995559
+            "ap2ID": 168870
         },
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 995559,
+            "ap1ID": 168870,
             "ap2ID": 684096
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 684096,
-            "ap2ID": 529783
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 684096
         },
         {
             "ap1Name": "geometry",
@@ -515,23 +499,17 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 475212,
+            "ap2ID": 168870
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
             "ap1ID": 775667,
             "ap2ID": 475212
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 475212,
-            "ap2ID": 995559
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "number or geometry",
-            "ap2Primary": false,
-            "ap1ID": 529783
         }
     ],
     "fileTypeVersion": 1,
